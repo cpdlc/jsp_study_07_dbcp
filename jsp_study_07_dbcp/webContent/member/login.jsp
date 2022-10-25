@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<script src="../script/member.js"></script>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script src="script/member.js"></script>
 </head>
 <body>
 	<h3>로그인</h3>
@@ -16,7 +16,7 @@
 			<table>
 				<tr>
 					<td>아이디 : </td>
-					<td><input type="text" name="userid"></td>
+					<td><input type="text" name="userid" value="${userid}"></td>
 				</tr>
 				
 				<tr>

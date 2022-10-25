@@ -25,7 +25,8 @@
 			<tr>
 				<td>
 					<input type="submit" value="로그아웃">
-					<input type="button" value="회원정보변경" onclick="href.location=''">
+					<input type="button" value="회원정보변경" 
+						onclick="location.href=''">
 				</td>
 			</tr>
 		</table>
